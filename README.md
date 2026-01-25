@@ -164,8 +164,8 @@ Este projeto está sendo desenvolvido como parte dos meus estudos em Engenharia 
 ## 👤 Autor
 
 **Seu Nome**
-- LinkedIn: [seu-perfil](https://www.linkedin.com/in/luciendelalves/)
-- GitHub: [@seu-usuario](https://github.com/luciendelalves)
+- LinkedIn: [(https://www.linkedin.com/in/luciendelalves/)]
+- GitHub: [(https://github.com/luciendelalves)]
 
 ---
 
