@@ -1,0 +1,5 @@
+cidade,pais,latitude,longitude,temperatura,sensacao_termica,temperatura_min,temperatura_max,pressao,umidade,velocidade_vento,direcao_vento,nebulosidade,descricao_clima,data_coleta
+Brasília,BR,-15.7797,-47.9297,21.51,21.88,21.14,21.51,1017,83,1.54,60,75,nublado,2026-01-25 18:24:22
+Rio De Janeiro,BR,-22.9028,-43.2075,23.76,24.65,23.0,24.97,1016,94,5.66,10,75,trovoada com chuva fraca,2026-01-25 18:24:22
+Salvador,BR,-12.9711,-38.5108,26.98,29.42,26.98,26.98,1014,77,5.78,120,100,nublado,2026-01-25 18:24:23
+São Paulo,BR,-23.5475,-46.6361,21.01,21.57,20.2,21.94,1019,92,5.14,150,75,nublado,2026-01-25 18:24:22
