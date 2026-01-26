@@ -99,12 +99,13 @@ Armazena as métricas climáticas coletadas.
 - Python 3.8 ou superior
 - Conta no [OpenWeatherMap](https://openweathermap.org/api) (API gratuita)
 - Conta no [Supabase](https://supabase.com) (plano gratuito)
+- Git instalado
 
 ### Instalação
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/luciendelalves/weather-data-pipeline
+git clone https://github.com/SEU_USUARIO/weather-data-pipeline.git
 cd weather-data-pipeline
 ```
 
@@ -115,8 +116,8 @@ pip install -r requirements.txt
 
 3. **Configure as variáveis de ambiente:**
 
-Crie um arquivo `.env` na raiz do projeto com:
-```
+Crie um arquivo `.env` na raiz do projeto:
+```env
 OPENWEATHER_API_KEY=sua_chave_aqui
 SUPABASE_URL=sua_url_aqui
 SUPABASE_KEY=sua_key_aqui
@@ -126,26 +127,48 @@ SUPABASE_KEY=sua_key_aqui
 - Acesse o SQL Editor no Supabase
 - Execute o conteúdo de `sql/create_tables.sql`
 
-5. **Execute o pipeline:**
+### Executando o Pipeline
+
+**Pipeline completo (Extract → Transform → Load):**
 ```bash
-# Em desenvolvimento
-python src/extract.py
+python src/pipeline.py
 ```
 
----
+**Módulos individuais:**
+```bash
+# Apenas extração
+python src/extract.py
+
+# Apenas transformação
+python src/transform.py
+
+# Apenas carga
+python src/load.py
+```
+
+### Verificando os Resultados
+
+Acesse o Supabase Table Editor para visualizar:
+- Tabela `dim_cidades`: Cidades cadastradas
+- Tabela `fato_clima`: Dados climáticos coletados
 
 ## 📈 Roadmap
 
-- [x] Modelagem do banco de dados
+- [x] Modelagem do banco de dados (Star Schema)
 - [x] Criação das tabelas no Supabase
-- [x] Configuração do ambiente
-- [ ] Módulo de extração de dados (em desenvolvimento)
-- [ ] Módulo de transformação
-- [ ] Módulo de carga
-- [ ] Pipeline orquestrado completo
-- [ ] Análises e visualizações
-- [ ] Documentação técnica completa
-- [ ] Testes automatizados
+- [x] Configuração do ambiente e dependências
+- [x] Módulo de extração de dados da API
+- [x] Módulo de transformação e validação
+- [x] Módulo de carga no data warehouse
+- [x] Pipeline ETL orquestrado completo
+- [x] Testes e validação end-to-end
+- [x] Documentação com prints e evidências
+- [ ] Análises SQL e queries avançadas
+- [ ] Dashboard de visualização de dados
+- [ ] Notebook Jupyter com análises exploratórias
+- [ ] Agendamento automático do pipeline
+- [ ] Testes unitários automatizados
+- [ ] Monitoramento e logs estruturados
 
 ---
 
