@@ -105,7 +105,7 @@ Armazena as métricas climáticas coletadas.
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/SEU_USUARIO/weather-data-pipeline.git
+git clone https://github.com/luciendelalves/weather-data-pipeline.git
 cd weather-data-pipeline
 ```
 
