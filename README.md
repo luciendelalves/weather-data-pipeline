@@ -184,18 +184,12 @@ Este projeto está sendo desenvolvido como parte dos meus estudos em Engenharia 
 
 ---
 
-## 👤 Autor
+## 👨‍💻 Autor
 
-**Seu Nome**
-- LinkedIn: [(https://www.linkedin.com/in/luciendelalves/)]
-- GitHub: [(https://github.com/luciendelalves)]
+**Luciendel Alves**
+- GitHub: [@luciendelalves](https://github.com/luciendelalves)
+- LinkedIn: [Luciendel Alves](https://www.linkedin.com/in/luciendelalves/)
 
----
+## 📄 Licença
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usar como referência para seus próprios estudos!
-
----
-
-⭐ Se este projeto foi útil para você, considere dar uma estrela!
+Este projeto está sob a licença MIT.
