@@ -35,20 +35,20 @@ OpenWeatherMap API
 
 ## Stack
 
-- Python — extração, transformação e carga
-- PostgreSQL via Supabase — data warehouse na nuvem
-- pandas — manipulação dos dados
-- OpenWeatherMap API — fonte de dados
-- python-dotenv — gerenciamento de credenciais
+- Python: extração, transformação e carga
+- PostgreSQL via Supabase: data warehouse na nuvem
+- pandas: manipulação dos dados
+- OpenWeatherMap API: fonte de dados
+- python-dotenv: gerenciamento de credenciais
 
 ---
 
 ## Modelagem de Dados (Star Schema)
 
-**dim_cidades** — dimensão com informações das cidades monitoradas:
+**dim_cidades**: dimensão com informações das cidades monitoradas:
 cidade, país, latitude e longitude.
 
-**fato_clima** — tabela fato com métricas climáticas coletadas:
+**fato_clima**: tabela fato com métricas climáticas coletadas:
 temperatura, sensação térmica, pressão, umidade, vento, nebulosidade
 e descrição do clima.
 
