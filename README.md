@@ -114,6 +114,6 @@ python src/pipeline.py
 ## Autor
 
 **Luciendel Alves**
-Analista de Risco & PLD — iGaming
+Analista de Risco & PLD - iGaming
 [LinkedIn](https://www.linkedin.com/in/luciendel-alves-008321107/) ·
 [GitHub](https://github.com/luciendelalves)
